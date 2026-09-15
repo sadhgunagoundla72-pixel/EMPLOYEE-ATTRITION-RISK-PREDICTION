@@ -4,12 +4,12 @@ import { useEffect, useState } from "react"
 import { TrendingDown, TrendingUp, Activity } from "lucide-react"
 
 const BARS = [
-  { label: "Sales", value: 82, color: "var(--color-coral)" },
-  { label: "Eng", value: 41, color: "var(--color-amber)" },
-  { label: "Ops", value: 63, color: "var(--color-amber)" },
-  { label: "IT", value: 34, color: "var(--color-teal)" },
-  { label: "Fin", value: 28, color: "var(--color-teal)" },
-  { label: "HR", value: 55, color: "var(--color-amber)" },
+  { label: "Sales", value: 82, color: "#f0685e" },
+  { label: "Eng", value: 41, color: "#f0a93b" },
+  { label: "Ops", value: 63, color: "#f0a93b" },
+  { label: "IT", value: 34, color: "#38d9c4" },
+  { label: "Fin", value: 28, color: "#38d9c4" },
+  { label: "HR", value: 55, color: "#f0a93b" },
 ]
 
 export function HeroVisual() {
